@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		114C35811E609DC0006D5D0B /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114C35801E609DC0006D5D0B /* WebViewController.swift */; };
 		1174B0C51E55743A007649ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1174B0C41E55743A007649ED /* AppDelegate.swift */; };
 		1174B0C71E55743A007649ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1174B0C61E55743A007649ED /* ViewController.swift */; };
 		1174B0CA1E55743A007649ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1174B0C81E55743A007649ED /* Main.storyboard */; };
@@ -14,6 +15,23 @@
 		1174B0CF1E55743A007649ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1174B0CD1E55743A007649ED /* LaunchScreen.storyboard */; };
 		1174B0DA1E55743A007649ED /* Lab4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1174B0D91E55743A007649ED /* Lab4Tests.swift */; };
 		1174B0E51E55743A007649ED /* Lab4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1174B0E41E55743A007649ED /* Lab4UITests.swift */; };
+		1174B0F31E55EFEB007649ED /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1174B0F21E55EFEB007649ED /* secondViewController.swift */; };
+		1192BC351E56C31700489A84 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1192BC341E56C31700489A84 /* libsqlite3.tbd */; };
+		1192BC641E56C58800489A84 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1192BC5A1E56C58800489A84 /* FMDatabase.m */; };
+		1192BC651E56C58800489A84 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1192BC5C1E56C58800489A84 /* FMDatabaseAdditions.m */; };
+		1192BC661E56C58800489A84 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1192BC5E1E56C58800489A84 /* FMDatabasePool.m */; };
+		1192BC671E56C58800489A84 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1192BC601E56C58800489A84 /* FMDatabaseQueue.m */; };
+		1192BC681E56C58800489A84 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1192BC631E56C58800489A84 /* FMResultSet.m */; };
+		1192BC711E57420C00489A84 /* Info-iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1192BC6B1E57420C00489A84 /* Info-iOS.plist */; };
+		1192BC721E57420C00489A84 /* Info-OSX.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1192BC6C1E57420C00489A84 /* Info-OSX.plist */; };
+		1192BC731E57420C00489A84 /* Info-tvOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1192BC6D1E57420C00489A84 /* Info-tvOS.plist */; };
+		1192BC741E57420C00489A84 /* Info-watchOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1192BC6E1E57420C00489A84 /* Info-watchOS.plist */; };
+		1192BC751E57420C00489A84 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1192BC701E57420C00489A84 /* SwiftyJSON.swift */; };
+		1192BC781E5748AB00489A84 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1192BC771E5748AB00489A84 /* MovieCell.swift */; };
+		1192BC7A1E578DD700489A84 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1192BC791E578DD700489A84 /* DetailViewController.swift */; };
+		1192BC7C1E57E8E800489A84 /* movieFavorites.db in Resources */ = {isa = PBXBuildFile; fileRef = 1192BC7B1E57E8E800489A84 /* movieFavorites.db */; };
+		37B541651E68B56A00BE6394 /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B541641E68B56A00BE6394 /* CommentView.swift */; };
+		37B541671E68D42400BE6394 /* movieComment.db in Resources */ = {isa = PBXBuildFile; fileRef = 37B541661E68D42400BE6394 /* movieComment.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		114C35801E609DC0006D5D0B /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		1174B0C11E55743A007649ED /* Lab4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1174B0C41E55743A007649ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1174B0C61E55743A007649ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +66,31 @@
 		1174B0E01E55743A007649ED /* Lab4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1174B0E41E55743A007649ED /* Lab4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab4UITests.swift; sourceTree = "<group>"; };
 		1174B0E61E55743A007649ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1174B0F21E55EFEB007649ED /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		1192BC341E56C31700489A84 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1192BC581E56C58700489A84 /* Lab4-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lab4-Bridging-Header.h"; sourceTree = "<group>"; };
+		1192BC591E56C58800489A84 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		1192BC5A1E56C58800489A84 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		1192BC5B1E56C58800489A84 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		1192BC5C1E56C58800489A84 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		1192BC5D1E56C58800489A84 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		1192BC5E1E56C58800489A84 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		1192BC5F1E56C58800489A84 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		1192BC601E56C58800489A84 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		1192BC611E56C58800489A84 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		1192BC621E56C58800489A84 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		1192BC631E56C58800489A84 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		1192BC6B1E57420C00489A84 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
+		1192BC6C1E57420C00489A84 /* Info-OSX.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-OSX.plist"; sourceTree = "<group>"; };
+		1192BC6D1E57420C00489A84 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		1192BC6E1E57420C00489A84 /* Info-watchOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
+		1192BC6F1E57420C00489A84 /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
+		1192BC701E57420C00489A84 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		1192BC771E5748AB00489A84 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		1192BC791E578DD700489A84 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1192BC7B1E57E8E800489A84 /* movieFavorites.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = movieFavorites.db; sourceTree = "<group>"; };
+		37B541641E68B56A00BE6394 /* CommentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
+		37B541661E68D42400BE6394 /* movieComment.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = movieComment.db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1192BC351E56C31700489A84 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +126,7 @@
 				1174B0D81E55743A007649ED /* Lab4Tests */,
 				1174B0E31E55743A007649ED /* Lab4UITests */,
 				1174B0C21E55743A007649ED /* Products */,
+				1192BC331E56C31700489A84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +143,21 @@
 		1174B0C31E55743A007649ED /* Lab4 */ = {
 			isa = PBXGroup;
 			children = (
+				1192BC6A1E5741ED00489A84 /* JSON */,
+				1192BC691E573F2700489A84 /* FMDB */,
 				1174B0C41E55743A007649ED /* AppDelegate.swift */,
+				37B541641E68B56A00BE6394 /* CommentView.swift */,
+				1192BC791E578DD700489A84 /* DetailViewController.swift */,
+				114C35801E609DC0006D5D0B /* WebViewController.swift */,
 				1174B0C61E55743A007649ED /* ViewController.swift */,
 				1174B0C81E55743A007649ED /* Main.storyboard */,
 				1174B0CB1E55743A007649ED /* Assets.xcassets */,
 				1174B0CD1E55743A007649ED /* LaunchScreen.storyboard */,
+				37B541661E68D42400BE6394 /* movieComment.db */,
+				1192BC7B1E57E8E800489A84 /* movieFavorites.db */,
 				1174B0D01E55743A007649ED /* Info.plist */,
+				1174B0F21E55EFEB007649ED /* secondViewController.swift */,
+				1192BC771E5748AB00489A84 /* MovieCell.swift */,
 			);
 			path = Lab4;
 			sourceTree = "<group>";
@@ -123,6 +178,46 @@
 				1174B0E61E55743A007649ED /* Info.plist */,
 			);
 			path = Lab4UITests;
+			sourceTree = "<group>";
+		};
+		1192BC331E56C31700489A84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1192BC341E56C31700489A84 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1192BC691E573F2700489A84 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				1192BC591E56C58800489A84 /* FMDatabase.h */,
+				1192BC5A1E56C58800489A84 /* FMDatabase.m */,
+				1192BC5B1E56C58800489A84 /* FMDatabaseAdditions.h */,
+				1192BC5C1E56C58800489A84 /* FMDatabaseAdditions.m */,
+				1192BC5D1E56C58800489A84 /* FMDatabasePool.h */,
+				1192BC5E1E56C58800489A84 /* FMDatabasePool.m */,
+				1192BC5F1E56C58800489A84 /* FMDatabaseQueue.h */,
+				1192BC601E56C58800489A84 /* FMDatabaseQueue.m */,
+				1192BC611E56C58800489A84 /* FMDB.h */,
+				1192BC621E56C58800489A84 /* FMResultSet.h */,
+				1192BC631E56C58800489A84 /* FMResultSet.m */,
+				1192BC581E56C58700489A84 /* Lab4-Bridging-Header.h */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		1192BC6A1E5741ED00489A84 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				1192BC6B1E57420C00489A84 /* Info-iOS.plist */,
+				1192BC6C1E57420C00489A84 /* Info-OSX.plist */,
+				1192BC6D1E57420C00489A84 /* Info-tvOS.plist */,
+				1192BC6E1E57420C00489A84 /* Info-watchOS.plist */,
+				1192BC6F1E57420C00489A84 /* SwiftyJSON.h */,
+				1192BC701E57420C00489A84 /* SwiftyJSON.swift */,
+			);
+			name = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +288,7 @@
 				TargetAttributes = {
 					1174B0C01E55743A007649ED = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					1174B0D41E55743A007649ED = {
@@ -232,9 +328,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1192BC7C1E57E8E800489A84 /* movieFavorites.db in Resources */,
+				1192BC731E57420C00489A84 /* Info-tvOS.plist in Resources */,
+				1192BC711E57420C00489A84 /* Info-iOS.plist in Resources */,
 				1174B0CF1E55743A007649ED /* LaunchScreen.storyboard in Resources */,
+				37B541671E68D42400BE6394 /* movieComment.db in Resources */,
 				1174B0CC1E55743A007649ED /* Assets.xcassets in Resources */,
 				1174B0CA1E55743A007649ED /* Main.storyboard in Resources */,
+				1192BC741E57420C00489A84 /* Info-watchOS.plist in Resources */,
+				1192BC721E57420C00489A84 /* Info-OSX.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +361,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1192BC7A1E578DD700489A84 /* DetailViewController.swift in Sources */,
+				37B541651E68B56A00BE6394 /* CommentView.swift in Sources */,
 				1174B0C71E55743A007649ED /* ViewController.swift in Sources */,
+				1192BC661E56C58800489A84 /* FMDatabasePool.m in Sources */,
+				1174B0F31E55EFEB007649ED /* secondViewController.swift in Sources */,
+				1192BC671E56C58800489A84 /* FMDatabaseQueue.m in Sources */,
 				1174B0C51E55743A007649ED /* AppDelegate.swift in Sources */,
+				1192BC641E56C58800489A84 /* FMDatabase.m in Sources */,
+				114C35811E609DC0006D5D0B /* WebViewController.swift in Sources */,
+				1192BC751E57420C00489A84 /* SwiftyJSON.swift in Sources */,
+				1192BC681E56C58800489A84 /* FMResultSet.m in Sources */,
+				1192BC781E5748AB00489A84 /* MovieCell.swift in Sources */,
+				1192BC651E56C58800489A84 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,10 +525,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Lab4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cse438.Lab4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lab4/Lab4-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +540,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Lab4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cse438.Lab4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lab4/Lab4-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -505,6 +623,7 @@
 				1174B0EB1E55743A007649ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1174B0EC1E55743A007649ED /* Build configuration list for PBXNativeTarget "Lab4Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +632,7 @@
 				1174B0EE1E55743A007649ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1174B0EF1E55743A007649ED /* Build configuration list for PBXNativeTarget "Lab4UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +641,7 @@
 				1174B0F11E55743A007649ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
